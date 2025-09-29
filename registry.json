@@ -1,0 +1,9 @@
+{
+  "servers": [
+    {
+      "name": "GitHub Remote MCP Server",
+      "url": "https://bmosandbox.github.io/registry-test/registry.json",
+      "allowed": true
+    }
+  ]
+}
