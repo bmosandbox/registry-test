@@ -1,5 +1,10 @@
 {
-  "servers": [
+  "registry": {
+    "name": "GitHub MCP Registry",
+    "url": "https://bmosandbox.github.io/registry-test/registry.json"
+    "type": "github-remote-only"
+  }
+  "ignore": [
     {
       "name": "GitHub Remote MCP Server",
       "url": "https://bmosandbox.github.io/registry-test/registry.json",
