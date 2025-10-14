@@ -1,7 +1,21 @@
 {
   "registry": {
     "name": "GitHub MCP Registry",
-    "url": "https://bmosandbox.github.io/registry-test/registry.json"
-    "type": "github-remote-only"
+    "url": "https://bmosandbox.github.io/registry-test/registry.json",
+    "allowedMCP": [
+      {
+        "type": "remote",
+        "provider": "github"
+      }
+    ],
+    "blockedMCP": [
+      {
+        "type": "local"
+      },
+      {
+        "type": "remote",
+        "provider": "atlassian"
+      }
+    ]
   }
 }
