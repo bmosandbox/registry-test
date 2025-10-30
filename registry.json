@@ -17,5 +17,12 @@
         "provider": "atlassian"
       }
     ]
+    "mcpServers": {
+      "github": {
+        "type": "http",
+        "url": "https://api.githubcopilot.com/mcp/readonly",
+        "tools": ["*"]
+      }
+    }
   }
 }
